@@ -30,6 +30,7 @@ public class Usuario {
         this.nombre = nombre;
         this.apellido = apellido;
         this.correo = correo;
+        this.contrasenia = contrasenia;
         telefonos = new ArrayList<>();
 
     }

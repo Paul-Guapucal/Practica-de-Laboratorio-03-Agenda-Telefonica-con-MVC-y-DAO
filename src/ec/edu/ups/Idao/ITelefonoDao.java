@@ -13,10 +13,14 @@ import java.util.List;
  * @author paul_
  */
 public interface ITelefonoDao {
-    
+
     public void create(Telefono telefono);
+
     public Telefono read(int id);
+
     public void update(Telefono telefono);
-    public void delete(Telefono telefono);   
+
+    public void delete(Telefono telefono);
+
     public List<Telefono> findAll();
 }

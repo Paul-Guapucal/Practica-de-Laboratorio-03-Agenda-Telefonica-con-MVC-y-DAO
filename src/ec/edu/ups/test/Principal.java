@@ -13,14 +13,15 @@ import ec.edu.ups.vista.VistaTelefono;
 import ec.edu.ups.vista.VistaUsuario;
 import java.util.InputMismatchException;
 import java.util.Scanner;
+
 /**
  *
  * @author paul_
  */
 public class Principal {
-    
+
     public static void main(String[] args) {
-        
+
         Scanner entrada = new Scanner(System.in);
         boolean salir = false;
         VistaUsuario vistaU = new VistaUsuario();
@@ -29,26 +30,26 @@ public class Principal {
         TelefonoDao telefonoDao = new TelefonoDao();
         ControladorUsuario controlUsuario = new ControladorUsuario(vistaU, vistaT, usuarioDao, telefonoDao);
         ControladorTelefono controlTelefono = new ControladorTelefono(vistaT, telefonoDao);
-        
+
         int opciones;
         while (!salir) {
             System.out.println("\n************************** Sistema De Agendas Telefonicas **************************");
             System.out.println("1. Registrarse ");
             System.out.println("2. Iniciar Sesion");
             System.out.println("3. Salir");
-            
+
             try {
                 System.out.println("Seleccione alguna de las opciones");
                 opciones = entrada.nextInt();
                 switch (opciones) {
                     case 1:
-                        
+
                         controlUsuario.registrarUsuario();
-                        
+
                         break;
-                    
+
                     case 2:
-                        
+
                         boolean loguear,
                         fuera = false;
                         controlUsuario.ingresoUsuario();
@@ -56,7 +57,7 @@ public class Principal {
                         if (loguear == true) {
                             System.out.println("Inicio de sesion existoso");
                             while (!fuera) {
-                                
+
                                 System.out.println("1. Actualizar los datos personales del usuario");
                                 System.out.println("2. Registrar un telefono nuevo");
                                 System.out.println("3. Actualizar un telefono");
@@ -65,9 +66,9 @@ public class Principal {
                                 System.out.println("6. Eliminar un telefono de la cuenta");
                                 System.out.println("7. Eliminar cuenta");
                                 System.out.println("8. Cerrar Sesion");
-                                
+
                                 try {
-                                    
+
                                     System.out.println("Seleccione alguna de las opciones");
                                     int op = entrada.nextInt();
                                     switch (op) {
@@ -98,9 +99,9 @@ public class Principal {
                                             fuera = true;
                                             break;
                                         default:
-                                            
+
                                             System.out.println("Solo se permiten items del 1 al 3");
-                                            
+
                                             break;
                                     }
 
@@ -113,15 +114,15 @@ public class Principal {
                         }
 
                         break;
-                    
+
                     case 3:
-                        
+
                         salir = true;
-                        
+
                         break;
-                    
+
                     default:
-                        
+
                         System.out.println("Solo se permiten items del 1 al 3");
                 }
 

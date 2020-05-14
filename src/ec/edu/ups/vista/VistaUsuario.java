@@ -36,9 +36,9 @@ public class VistaUsuario {
         String correo = entrada.next();
 
         System.out.println("Ingrese la contrasena del usuario");
-        String contrania = entrada.next();
+        String contrasenia = entrada.next();
 
-        return new Usuario(cedula, nombre, apellido, correo, contrania);
+        return new Usuario(cedula, nombre, apellido, correo, contrasenia);
 
     }
 
@@ -59,9 +59,9 @@ public class VistaUsuario {
         String correo = entrada.next();
 
         System.out.println("Ingrese la nueva contresena del usuario");
-        String contrania = entrada.next();
+        String contrasenia = entrada.next();
 
-        return new Usuario(cedula, nombre, apellido, correo, contrania);
+        return new Usuario(cedula, nombre, apellido, correo, contrasenia);
 
     }
 

@@ -31,7 +31,7 @@ public class UsuarioDao implements IUsuarioDao {
     @Override
     public Usuario read(String correo, String contrasenia) {
         for (Usuario usuario : listaUsuario) {
-            if (usuario.getCorreo().equals(correo) && usuario.getContrasenia().equals(contrasenia)) {
+            if (usuario.getCorreo().equalsIgnoreCase(correo) && usuario.getContrasenia().equalsIgnoreCase(contrasenia)) {
                 return usuario;
             }
         }
@@ -42,7 +42,7 @@ public class UsuarioDao implements IUsuarioDao {
     public void update(Usuario usuario) {
         for (int i = 0; i < listaUsuario.size(); i++) {
             Usuario usua = listaUsuario.get(i);
-            if (usua.getCedula().equals(usuario.getCedula())) {
+            if (usua.getCedula().equalsIgnoreCase(usuario.getCedula())) {
                 listaUsuario.set(i, usuario);
                 break;
             }
@@ -54,7 +54,7 @@ public class UsuarioDao implements IUsuarioDao {
         Iterator<Usuario> it = listaUsuario.iterator();
         while (it.hasNext()) {
             Usuario usua = it.next();
-            if (usua.getCedula().equals(usuario.getCedula())) {
+            if (usua.getCedula().equalsIgnoreCase(usuario.getCedula())) {
                 it.remove();
                 break;
             }

@@ -13,10 +13,14 @@ import java.util.List;
  * @author paul_
  */
 public interface IUsuarioDao {
-    
+
     public void create(Usuario usuario);
+
     public Usuario read(String correo, String contrasenia);
+
     public void update(Usuario usuario);
-    public void delete(Usuario usuario);   
+
+    public void delete(Usuario usuario);
+
     public List<Usuario> findAll();
 }
