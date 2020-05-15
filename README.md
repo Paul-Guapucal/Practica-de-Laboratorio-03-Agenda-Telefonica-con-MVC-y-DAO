@@ -47,6 +47,7 @@
 [principal]: (https://github.com/Paul-Guapucal/Practica-de-Laboratorio-03-Agenda-Telefonica-con-MVC-y-DAO/blob/master/src/ec/edu/ups/test/Principal.java)
 
 *2.2 Capturas del output de la aplicacion*
+
 ![captura output1]: (https://github.com/Paul-Guapucal/Screens-Practica03-Paul-Guapucal/blob/master/Screen%20Output1.jpg)
 
 ![captura output2]: (https://github.com/Paul-Guapucal/Screens-Practica03-Paul-Guapucal/blob/master/Screen%20Output2.jpg)
