@@ -4,6 +4,7 @@
 **Objetivos de la Practica**
 
 **•	Utilizar los aprendizajes adquiridos en clase, para con los mismos realizar una aplicación en la que se pueda registrar números de teléfonos junto con el propietario del mismo y sus atributos.**
+
 **•	Implementar los métodos MVC y DAO dentro de la ID NetBeans para la resolución de la práctica junto a la que su implementación será requerida y usada para finalizar la misma.**
 
 **Items a desarrollar**
@@ -71,12 +72,25 @@
 **Resultados obtenidos de la Practica**
 
 **•	Desarrollar una aplicación para el registro de teléfonos, según el tipo del mismo, diferenciando cada teléfono por un usuario que va a tener un usuario y una contraseña para iniciar sesión en la misma. **
+
 **•	Implementar los métodos MVC y DAO en la aplicación para que sea más simple y mucho mejor la entrada de parámetros dentro del output de manera eficiente para la valía del usuario. **
 
 **Conclusiones**
+
 **•	Realizar este tipo de aplicaciones son un muy buen ejercicio para un programador amateur, debido a que tiene la finalidad de hacer que el programador razone y tome decisiones sobre los métodos que debe implementar, los atributos que debe declarar y usar para que la resolución de la aplicación sea optima.**
+
 **•	Los patrones MVC y DAO tienen mucho que ver dentro de prácticas de este tipo ya que son demasiado útiles en cuanto a los métodos CRUD, que también conocimos en las clases de programación.** 
 
 **Recomendaciones**
+
 **•	Utilizar la ID NetBeans para este tipo de aplicaciones es muy recomendable, puesto que su variedad de diccionarios, métodos, patrones, nos ahorran mucho tiempo en cuanto a el desarrollo de la interfaz del mismo, o más bien el entorno que será visualizado por el usuario.**
+
 **•	Dentro de la aplicación, especificar de manera clara al usuario los atributos que debe ingresar por teclado, para que de esta forma no exista confusión con el desarrollo del programa y no salten errores, o más bien para que pueda funcionar el programada de corrido, mas no volver a repetir todo el proceso.**
+
+**Nombre del estudiante**
+
+**Paul Alexander Guapucal Cardenas**
+
+**Firma del estudiante**
+
+![firma estudiante]: (https://github.com/Paul-Guapucal/Screens-Practica03-Paul-Guapucal/blob/master/Screen%20firma.jpg)
