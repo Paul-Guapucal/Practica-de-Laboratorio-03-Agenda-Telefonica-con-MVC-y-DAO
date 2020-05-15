@@ -4,7 +4,7 @@
 **Items a desarrollar**
 
 **1.	Crear un repositorio en GitHub con el nombre “Práctica de laboratorio 03: Agenda Telefónica con MVC y DAO”** 
-![Screen creacion del Repositorio](C:\Users\paul_\Desktop)
+![Screen creacion del Repositorio]: (
 
 **2.	Desarrollar una aplicación en Java para gestionar una agenda telefónica según los requerimientos planteados en las instrucciones de la práctica**
 
