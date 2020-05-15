@@ -71,9 +71,9 @@
 
 **Resultados obtenidos de la Practica**
 
-**•	Desarrollar una aplicación para el registro de teléfonos, según el tipo del mismo, diferenciando cada teléfono por un usuario que va a tener un usuario y una contraseña para iniciar sesión en la misma. **
+**•	Desarrollar una aplicación para el registro de teléfonos, según el tipo del mismo, diferenciando cada teléfono por un usuario que va a tener un usuario y una contraseña para iniciar sesión en la misma.**
 
-**•	Implementar los métodos MVC y DAO en la aplicación para que sea más simple y mucho mejor la entrada de parámetros dentro del output de manera eficiente para la valía del usuario. **
+**•	Implementar los métodos MVC y DAO en la aplicación para que sea más simple y mucho mejor la entrada de parámetros dentro del output de manera eficiente para la valía del usuario.**
 
 **Conclusiones**
 
@@ -89,7 +89,7 @@
 
 **Nombre del estudiante**
 
-**Paul Alexander Guapucal Cardenas**
+**-Paul Alexander Guapucal Cardenas**
 
 **Firma del estudiante**
 
