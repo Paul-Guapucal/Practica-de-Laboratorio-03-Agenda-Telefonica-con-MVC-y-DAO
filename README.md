@@ -4,7 +4,7 @@
 **Items a desarrollar**
 
 **1.	Crear un repositorio en GitHub con el nombre “Práctica de laboratorio 03: Agenda Telefónica con MVC y DAO”** 
-![Screen creacion del Repositorio]: (
+![Screen creacion del Repositorio]: (https://github.com/Paul-Guapucal/Screens-Practica03-Paul-Guapucal/blob/master/Screen%20Repositorio.jpg)
 
 **2.	Desarrollar una aplicación en Java para gestionar una agenda telefónica según los requerimientos planteados en las instrucciones de la práctica**
 
@@ -38,5 +38,24 @@
 
 *2.1.6 Clases del paquete test*
 [principal]: (https://github.com/Paul-Guapucal/Practica-de-Laboratorio-03-Agenda-Telefonica-con-MVC-y-DAO/blob/master/src/ec/edu/ups/test/Principal.java)
+
+*2.2 Capturas del output de la aplicacion*
+![captura output1]: (https://github.com/Paul-Guapucal/Screens-Practica03-Paul-Guapucal/blob/master/Screen%20Output1.jpg)
+
+![captura output2]: (https://github.com/Paul-Guapucal/Screens-Practica03-Paul-Guapucal/blob/master/Screen%20Output2.jpg)
+
+![captura output3]: (https://github.com/Paul-Guapucal/Screens-Practica03-Paul-Guapucal/blob/master/Screen%20Output3.jpg)
+
+![captura output4]: (https://github.com/Paul-Guapucal/Screens-Practica03-Paul-Guapucal/blob/master/Screen%20Output4.jpg)
+
+![captura output5]: (https://github.com/Paul-Guapucal/Screens-Practica03-Paul-Guapucal/blob/master/Screen%20Output5.jpg)
+
+![captura output6]: (https://github.com/Paul-Guapucal/Screens-Practica03-Paul-Guapucal/blob/master/Screen%20Output6.jpg)
+
+![captura output7]: (https://github.com/Paul-Guapucal/Screens-Practica03-Paul-Guapucal/blob/master/Screen%20Output7.jpg)
+
+![captura output8]: (https://github.com/Paul-Guapucal/Screens-Practica03-Paul-Guapucal/blob/master/Screen%20Output8.jpg)
+
+![captura output9]: (https://github.com/Paul-Guapucal/Screens-Practica03-Paul-Guapucal/blob/master/Screen%20Output9.jpg)
 
 **3.	Realizar varios commits en la herramienta GitHub que demuestren el desarrollo de la aplicación desde principio a fin**
